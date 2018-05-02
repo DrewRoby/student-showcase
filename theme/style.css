@@ -41,6 +41,7 @@
   max-width: 350px;
 }
 
+
 /* .content div:nth-child(6) > ul > img:hover {
   opacity: 1.0
 } */
@@ -52,4 +53,13 @@
   text-shadow: 3px 2px orange;
   color: teal;
   font-family: 'Shrikhand',cursive;
+}
+
+#sixLinksAndPicture{
+  display: flex;
+  flex-flow: row;
+}
+
+#sixLinksAndPicture > ul > li {
+  list-style: none;
 }
