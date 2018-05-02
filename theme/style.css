@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
 .header {
   display: flex;
   flex-direction: column;
@@ -16,6 +18,36 @@
 }
 
 /* style your grid sections here!  */
-.content div:nth-child(6) {
-  background-color: papayawhip;
+.six {
+  background-image: url("/assets/b6gradient.jpeg");
+  background-size: cover;
+
+}
+
+.six > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  /* flex-flow: column / wrap; */
+}
+
+.six > ul > img {
+  /* opacity: 0.5 */
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  max-width: 350px;
+}
+
+/* .content div:nth-child(6) > ul > img:hover {
+  opacity: 1.0
+} */
+
+#header6 {
+  white-space: nowrap;
+  /* overflow: hidden; */
+  font-size: 8vw;
+  text-shadow: 3px 2px orange;
+  color: teal;
+  font-family: 'Shrikhand',cursive;
 }
