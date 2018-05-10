@@ -16,13 +16,98 @@
   max-width: 750px;
   text-align: center;
 }
-.img {
-  width: 100px;
+
+img {
+  width: 100%;
 }
 /* style your grid sections here!  */
+<<<<<<< HEAD
 .six {
   background-image: url("/assets/b6gradient.jpeg");
   background-size: cover;
+=======
+
+#ashlea {
+  display: flex;
+  background-color: #E00C78;
+  color: #9DF20C;
+  font-family: 'oswald';
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  }
+
+.list {
+  list-style: none;
+}
+
+.list a:hover {
+  background-color: yellow;
+}
+
+.list li a {
+  color: #0BB1B9;
+}
+
+.ashleaspic {
+  width: 300px;
+}
+
+#Jake {
+  color:#070e0f ;
+  background-color:#61ABA6;
+  max-width: 400px;
+  margin: auto;
+}
+#image {
+  display: block;
+  width: 70%;
+  max-width: 250px;
+  margin: 10px;
+  align-content: center;
+  margin-left: 30px;
+  border-style: inset;
+}
+#Jake > h1{
+  text-align:center;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+.slogan{
+  font-family: cursive;
+  font-weight: bold;
+}
+#contacts{
+  display: flex;
+  border-style: dashed;
+  justify-content: space-between;
+}
+#Jennifer > img {
+  border-style: none;
+  width: 100px;
+}
+#Jennifer  h1 {
+  font-size: 2em;
+  color: white;
+  font-style: oblique;
+}
+#Jennifer {
+  background-color: Orchid;
+}
+#Jennifer > ul {
+  color: black;
+}
+#Jennifer > li {
+  color: black;
+}
+#Jennifer a {
+  color: black;
+}
+>>>>>>> 3b3c5f82564857d3d48a57e5cdd23872c2d6f5cb
 
 }
 
@@ -46,6 +131,7 @@
   opacity: 1.0
 } */
 
+<<<<<<< HEAD
 #header6 {
   white-space: nowrap;
   /* overflow: hidden; */
@@ -53,6 +139,13 @@
   text-shadow: 3px 2px orange;
   color: teal;
   font-family: 'Shrikhand',cursive;
+=======
+div.ten h2 {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #c9bfd3;
+>>>>>>> 3b3c5f82564857d3d48a57e5cdd23872c2d6f5cb
 }
 
 #sixLinksAndPicture{
